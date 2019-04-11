@@ -1,0 +1,47 @@
+#main-container{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-logo{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fec338;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#main-container form input {
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 22px;
+    margin-top:30px;
+}
+
+#main-container form button {
+    height: 48px;
+    background: #fec338;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 22px;
+    margin-top:10px;
+    color:#fff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 2px 0 2px #ddd
+}
+
+#main-container form button :hover {
+    opacity: 0.8;
+}
